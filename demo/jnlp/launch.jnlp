@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<jnlp codebase="http://beautyeye.googlecode.com/svn/trunk/beautyeye_lnf/demo/jnlp/" name="BeautyEye LNF Demo" href="launch.jnlp">
+   <information>
+	<title>A demo for BeautyEye LNF</title>
+	<vendor>Jack Jiang(jb2011@163.com).</vendor>
+	<homepage href="http://beautyeye.googlecode.com"/>
+	<offline-allowed/> 	
+ 	<shortcut>
+      	<desktop/>
+	<menu submenu="BeautyEye LNF Demo"/>
+	</shortcut>
+   </information>
+
+   <security>
+      <all-permissions/>
+   </security>
+
+   <application-desc main-class="SwingSet2"/>
+   
+   <resources>
+	<j2se version="1.5+" href="http://java.sun.com/products/autodl/j2se"/>
+        <j2se version="1.5+"/> 
+        <jar href="../excute_jar/SwingSets2(BeautyEyeLNFDemo).jar" download="eager"/>
+    </resources>
+</jnlp> 

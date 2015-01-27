@@ -1,0 +1,59 @@
+
+-------------------------------------------------------------------------------------- v3.1发布于2012-09-15 17:00
+BeautyEye L&F v3.1版更新说明：
+
+【解决的Bug】
+1、[兼容性问题]java1.6早期版本中，DefaultTableCellHeaderRenderer中不存在getColumnSortOrder(..)方法的问题
+2、[兼容性问题]windows7下JScrollPane的滚动条NinePatch填充错位1个像素的问题
+3、使用跨平台主类BeautyEyeLookAndFeelCross时错误地把FileChooserUI也设置成了BEFileChooserWin 
+4、[兼容性问题]在windows7+jdk1.6_u31下，菜单背景、CheckBoxMenuItem等错误地使用了默认的系统方案
+5、[兼容性问题]SwingSets2Demo在java1.6.0_u10上运行出异常
+6、win7下，2级父菜单项会比子菜单项错误的高几个像素 
+7、在windows7下，topLevelMenu不能正常被绘制
+8、java1.6.0_14版前因java Bug 6683775而导致的下拉框弹出列表ui刷新混乱
+
+【其它优化内容】
+1、XBEMenuItemUI为了跨平台，将父类改为继承BasicMenuItemUI，并改名BEMenuItemUI
+2、XBEMenuUI为了跨平台，将父类改为继承BasicMenuUI，并改名BEMenuUI
+3、XBEMenuBarUI为了跨平台，将父类改为继承BasicMenuBarUI，并改名BEMenuBarUI
+
+
+-------------------------------------------------------------------------------------- v3.2发布于2012-09-21 17:44
+BeautyEye L&F v3.2版更新说明：
+
+【解决的Bug】
+1、因调整了默认的列表行高，受此影响FileChooser里的文件列表行高也被改变，导致文件列表不好看   影响版本v3.0v3.1
+2、滚动条在非常小的时候会虚绘（即滚动条实质没它么大却绘成了NP图最小大小）问题   影响版本v3.03.1
+3、在windows系统中最大化的时候,会遮住屏幕底部的taskbar,windowsXp 和 windows7 都是这样
+4、用户自定义的JComboBox的render因pop机制中设置透明问题而导致的下拉列表单元被景不能被正确绘制问题
+5、因WindowsFileChooserUI的代码设计不良，无法解决文件选择在板中的目录下拉框左边难看的问题
+
+
+【其它优化内容】
+1、关于FrameBorderStyle.translucencyAppleLike边框的敏感区判断优化   影响版本v3.0v3.1
+2、为调试信息加一个DEBUG开关，用户可以选择开关这些信息的输入   影响版本v3.0v3.1
+3、增加了开关量：用于开启/关闭当窗口处于非活动状态（inactivity）时的半透明视觉效果   解决于v3.2
+4、将每一个组件的UI属性独立的放入各自的__UI__类中，以便第3方可以独立调用
+5、在拖动窗口时，偶尔会无法恢复到先前的鼠标样式（仍然错误的用了拖动时的Cursor样式）   影响版本v3.0v3.1
+6、JFileChooser中的JComboxBox因使用的自定义renderer导致与be LNF很不搭
+
+
+-------------------------------------------------------------------------------------- v3.3发布于2012-09-25 15:17
+BeautyEye L&F v3.3版更新说明：
+
+【解决的Bug】
+1、【Issue 37】解决某些情况下WindowTranslucencyHelper.setWindowOpaque中w.getBackground()为null导致透明失败的问题
+2、【Issue 38】放置于主面板不同方向上的JToolBar的border得到了优化，修正了NORTH以外方向的border挤的问题
+3、【Issue 39】TabbedPaneUI的选中tab上左边的条灰色竖线（图没弄好！）
+4、【Issue 41】窗口icon与title在垂直方向上有几个像素的偏移
+5、【Issue 44】窗口标题栏的图标点中后的背景绘制的问题
+
+
+【其它优化内容】
+1、【Issue 45】优化了内部窗体的图标	
+2、【Issue 46】优化了窗口最大化按钮图标（优化之前最大化后和正常情况下是同一图标）
+
+
+
+
+
