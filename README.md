@@ -78,5 +78,5 @@ public static void main(String[] args)
 *Part 2/2：* 欲查看清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)<br>
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)
 
-=More Screenshots=
+## More Screenshots
 [Click here](http://code.google.com/p/beautyeye/wiki/screenshots_all_in_one)
