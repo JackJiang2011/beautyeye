@@ -61,12 +61,11 @@ public static void main(String[] args)
 
 ## Contact
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
-<ul>
-<li>如有bug及建议等，请直接提交 __`Issues`__ 或邮件至： `jb2011@163.com` ；</li>
-<li>另有一QQ群供Swing爱好者讨论交流，1群： `259448663` ；</li>
-<li>另：有偿提供应用软件整体或局部美化咨询、方案制作、编码实现等，如有需求请联系QQ： `413980957` ；</li>
-<li>你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。</li>
-</ul>
+
+* 如有bug及建议等，请直接提交`Issues`或邮件至：`jb2011@163.com`；</li>
+* 另有一QQ群供Swing爱好者讨论交流，1群：`259448663`；
+* 另：有偿提供应用软件整体或局部美化咨询、方案制作、编码实现等，如有需求请联系QQ：`413980957`；
+* 你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。
 
 ## License
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在未经授权的情况下用于商业用途等，请尊重知识产权。
