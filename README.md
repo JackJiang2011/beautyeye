@@ -24,16 +24,14 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 
 ## Demos
 <b>提示:</b>  请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本<br><font style="font-size: 11px" color="#FF6600">([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))</font>，这些版本才能支持窗口透明特性.
-<ul>
-<li>
-[Demo在线加载1](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/applet/SwingSet2_for_be_lnf.html)__(applet方式）__ <font color="#FF6600">\[注：如浏览器不能正常解析，请“另存为...”后本地打开\]</font></li>
-<li>or 
-[Demo在线加载2](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/jnlp/launch.jnlp)__(Java Web Start方式)__ <font color="#FF6600">\[注：如浏览器不能正常解析，请“另存为...”后本地打开\]</font></li>
-<li>or 
-[下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)</li>
-<li>or 
-[下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐\]</font></li>
-</ul>
+
+* [Demo在线加载1](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/applet/SwingSet2_for_be_lnf.html)__(applet方式）__ <font color="#FF6600">\[注：如浏览器不能正常解析，请“另存为...”后本地打开\]</font></li>
+* or 
+[Demo在线加载2](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/jnlp/launch.jnlp)__(Java Web Start方式)__ <font color="#FF6600">\[注：如浏览器不能正常解析，请“另存为...”后本地打开\]</font>
+* or 
+[下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)
+* or 
+[下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐\]</font>
 
 ## Download
 all_in_one.zip压缩包：[http://code.google.com/p/beautyeye/downloads/list Click HERE]（内含demo、api文档、核心分发jar包等）.<br><br>
