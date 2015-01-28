@@ -38,6 +38,10 @@ all_in_one.zip压缩包：[http://code.google.com/p/beautyeye/downloads/list Cli
 <font color="#2A779D">友情提示：核心分发jar包 *`beautyeye_lnf.jar`* 位于all_in_one.zip包中的位置是：*“`all_in_one/dist/`”*</font>
 
 ## Development Guide
+### 第一步：引入*`beautyeye_lnf.jar`*包
+<font color="#2A779D">核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录</font>。
+
+### 第二步：在代码中使用BeautyEye
 <font color="#2A779D">加入以下代码，即可将你的Java程序界面更换成Beauty Eye的外观：</font>
 ```Java
 public static void main(String[] args)
