@@ -34,8 +34,7 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 [下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐\]</font>
 
 ## Download
-all_in_one.zip压缩包：[http://code.google.com/p/beautyeye/downloads/list Click HERE]（内含demo、api文档、核心分发jar包等）.<br><br>
-<font color="#2A779D">友情提示：核心分发jar包 *`beautyeye_lnf.jar`* 位于all_in_one.zip包中的位置是：*“`all_in_one/dist/`”*</font>
+正式版.zip包：[Click HERE](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## Development Guide
 ### 第一步：引入*`beautyeye_lnf.jar`*包
