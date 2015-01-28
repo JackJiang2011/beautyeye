@@ -69,7 +69,7 @@ public static void main(String[] args)
 </ul>
 
 ## License
-你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在未经授权的情况下用于商业用途等，请尊重知识产权。
+你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，`但禁`止在未经授权的情况下用于商业用途等，请尊重知识产权。
 
 ## Preview
 *Part 1/2：* 欲查看清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png )<br>
