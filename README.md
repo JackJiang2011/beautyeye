@@ -63,7 +63,7 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
 
 * 如有bug及建议等，请直接提交`Issues`或邮件至：`jb2011@163.com`；</li>
-* 另有一QQ群供Swing爱好者讨论交流，1群：`259448663`<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9971fb1d1845edc87bdec92ad03f329c1d1f280b1cfe73b6d03c13b0f7f8aba1"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java Swing技术交流" title="Java Swing技术交流"></a>；
+* 另有一QQ群供Swing爱好者讨论交流，1群：`259448663`  <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9971fb1d1845edc87bdec92ad03f329c1d1f280b1cfe73b6d03c13b0f7f8aba1"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java Swing技术交流" title="Java Swing技术交流"></a>；
 * 另：有偿提供应用软件整体或局部美化咨询、方案制作、编码实现等，如有需求请联系QQ：`413980957`；
 * 你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。
 
