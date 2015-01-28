@@ -62,9 +62,9 @@ public static void main(String[] args)
 ## Contact
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
 <ul>
-<li>如有bug及建议等，请直接提交`Issues`或邮件至：`jb2011@163.com`；</li>
-<li>另有一QQ群供Swing爱好者讨论交流，1群：`259448663`；</li>
-<li>另：有偿提供应用软件整体或局部美化咨询、方案制作、编码实现等，如有需求请联系QQ：`413980957`；</li>
+<li>如有bug及建议等，请直接提交 `Issues` 或邮件至： `jb2011@163.com` ；</li>
+<li>另有一QQ群供Swing爱好者讨论交流，1群： `259448663` ；</li>
+<li>另：有偿提供应用软件整体或局部美化咨询、方案制作、编码实现等，如有需求请联系QQ： `413980957` ；</li>
 <li>你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。</li>
 </ul>
 
