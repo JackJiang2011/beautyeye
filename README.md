@@ -1,5 +1,5 @@
 ## 关于BeautyEye
-BeautyEye工程自2015-01-30日起已从[google code](https://code.google.com/p/beautyeye/)迁移至此。
+BeautyEye工程自2015-01-30日起已从[Google Code](https://code.google.com/p/beautyeye/)迁移至此。
 
 BeautyEye是一款Java Swing跨平台外观（look and feel）实现。<br>
 得益于Android的GUI基础技术，BeautyEye的实现完全不同于其它外观。<br>
