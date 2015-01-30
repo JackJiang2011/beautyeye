@@ -81,4 +81,4 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)
 
 ## More Screenshots
-[Click here](http://code.google.com/p/beautyeye/wiki/screenshots_all_in_one)
+[Click here](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
