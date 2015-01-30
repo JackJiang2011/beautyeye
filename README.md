@@ -1,4 +1,4 @@
-## 关于BeautyEye
+## 关于BeautyEye ![](https://code.google.com/p/beautyeye/logo?cct=1376536220)
 :bulb: BeautyEye工程自2015-01-30日起因众所周知的原因已从 [Google Code](https://code.google.com/p/beautyeye/) 迁移至此。
 
 BeautyEye是一款Java Swing跨平台外观（look and feel）实现；<br>
