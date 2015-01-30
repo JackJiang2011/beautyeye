@@ -68,8 +68,10 @@ public static void main(String[] args)
 ## 关于作者
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
 
+* 计算机科学与技术专业本科毕业；
 * 多年的企业应用、互联网应用开发从业经验，现正从事于移动互联网和智能穿戴应用领域；
 * 职业生涯：程序员、项目经理、技术总监；
+* 编码技能：JavaME、JavaSE、JavaEE、Android、iOS等平台应用层开发；
 * 
 
 ## 特性预览
