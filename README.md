@@ -1,11 +1,11 @@
 ## 关于BeautyEye
-BeautyEye自2015-01-30日起已从[google code](https://code.google.com/p/beautyeye/)迁移至此。
+BeautyEye工程自2015-01-30日起已从[google code](https://code.google.com/p/beautyeye/)迁移至此。
 
 BeautyEye是一款Java Swing跨平台外观（look and feel）实现。<br>
 得益于Android的GUI基础技术，BeautyEye的实现完全不同于其它外观。<br>
 BeautyEye是免费的，您可以研究、学习甚至商业用途。
 
-> 迄今为止，BeautyEye工程没有任何平面设计或相关UI设计人员的参与，仍是纯粹的程序员作品（包括UI原型、设计、切图直至编码实现）。
+> 迄今为止，BeautyEye没有任何平面设计或相关UI设计人员的参与，仍是纯粹的程序员作品。
 
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
@@ -18,19 +18,19 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 另附：[BeautyEye兼容性测试结果](http://code.google.com/p/beautyeye/wiki/Compatibility_test_results).
 
 ## 主要特征
-* 更好的兼容性，可运行于java 1.5、1.6、1.7，SUN的非公开API被移除？木有关
-* 遵从主流审美，与时俱进
-* 跨平台
-* 源自Android基础技术，用最少的代码实现最满意的外观，Synth、Nimbus都是浮云
+* 跨平台；
+* 遵从主流审美，与时俱进；
+* 更好的兼容性，可运行于java 1.5、1.6、1.7，SUN的非公开API被移除？木有关系；
+* 源自Android GUI基础技术，以最少的代码实现最满意的外观，Synth、Nimbus都是浮云。
 
 ## 演示程序
-<b>提示:</b>  请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本<br>([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，这些版本才能支持窗口透明特性.
+<b>提示:</b> 请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本<br>([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，这些版本才能支持窗口透明特性.
 
-* [下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)
-* [下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐\]</font>
+* [点击下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)
+* [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐\]</font>
 
 ## 下载方式
-正式版.zip包：[Click HERE](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
+正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## 开发指南
 #### 第一步：引入*`beautyeye_lnf.jar`*包
