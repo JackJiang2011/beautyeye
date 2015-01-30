@@ -62,10 +62,10 @@ public static void main(String[] args)
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在超越License约束内容的情况下用于商业用途等，请尊重知识产权。
 
 ## 特性预览
-#### Part 1/2：（点击查看清晰原图）
+#### Part 1/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png)
 
-#### Part 2/2：（点击查看清晰原图）
+#### Part 2/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)
 
 ## 更多截屏
