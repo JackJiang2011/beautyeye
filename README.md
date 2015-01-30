@@ -14,9 +14,9 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2013年04月05日。
 
 ## Compatibility
-BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行在[java1.6.0_12或更新的版本](http://www.java.com/zh_CN/download/) <br>([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920 ))，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。
+BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行在[java1.6.0_12或更新的版本](http://www.java.com/zh_CN/download/) <br>([为何java1.6.0_10或u11版不行？](https://github.com/JackJiang2011/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。
 
-另附：[BeautyEye兼容性测试结果](http://code.google.com/p/beautyeye/wiki/Compatibility_test_results).
+另附：[BeautyEye兼容性测试结果](https://github.com/JackJiang2011/beautyeye/wiki/Compatibility_test_results).
 
 ## Feature
 * 跨平台；
@@ -25,7 +25,7 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 * 源自Android GUI基础技术，以最少的代码实现最满意的外观，Synth、Nimbus都是浮云。
 
 ## Demos
-<b>提示:</b> 请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，这些版本才能支持窗口透明特性.
+<b>提示:</b> 请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本([为何java1.6.0_10或u11版不行？](https://github.com/JackJiang2011/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，这些版本才能支持窗口透明特性.
 
 * [点击下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)
 * [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/swingset3_beautyeye.jar) <font color="#FF6600">\[推荐:thumbsup:\]</font>
