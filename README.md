@@ -31,10 +31,10 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 
 ## Development Guide
 ### 第一步：引入*`beautyeye_lnf.jar`*包
-<font color="#2A779D">核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录</font>。
+<font color=#2A779D>核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录</font>。
 
 ### 第二步：在代码中使用BeautyEye
-<sub><font color="#2A779D">加入以下代码，即可将你的Java程序界面更换成Beauty Eye的外观：</font></sub>
+<font color="#2A779D">加入以下代码，即可将你的Java程序界面更换成Beauty Eye的外观：</font>
 ```Java
 public static void main(String[] args)
 {
