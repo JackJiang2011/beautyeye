@@ -5,7 +5,7 @@ BeautyEye是一款Java Swing跨平台外观（look and feel）实现。<br>
 得益于Android的GUI基础技术，BeautyEye的实现完全不同于其它外观。<br>
 BeautyEye是免费的，您可以研究、学习甚至商业用途。
 
-> 迄今为止，BeautyEye没有借助任何平面设计或相关UI人员的力量，仍是纯粹的程序员作品（包括UI原型、设计、切图直至编码实现）。
+> 迄今为止，BeautyEye没有借助任何平面设计或相关UI设计人员的力量，仍是纯粹的程序员作品（包括UI原型、设计、切图直至编码实现）。
 
 ## 最新版本
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/release_notes/v3.5_release_note.png)
