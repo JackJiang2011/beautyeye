@@ -7,6 +7,8 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 
 > 迄今为止，BeautyEye工程没有任何平面设计或相关UI设计人员的参与，仍是纯粹的程序员作品（包括UI原型、设计、切图直至编码实现）。
 
+> BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
+
 ## 最新版本
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/release_notes/v3.5_release_note.png)
 
