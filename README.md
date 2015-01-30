@@ -55,7 +55,7 @@ public static void main(String[] args)
 }
 ```
 
-详细开发者指南请查看：[BeautyEye L&F简明开发者指南](http://code.google.com/p/beautyeye/wiki/Introduction).
+详细开发者指南请查看：[BeautyEye L&F简明开发者指南](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-L&F%E7%AE%80%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97).
 
 ## License
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在超越License约束内容的情况下用于商业用途等，请尊重知识产权。
