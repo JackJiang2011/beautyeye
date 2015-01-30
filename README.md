@@ -62,17 +62,16 @@ public static void main(String[] args)
 ## 联系方式
 * 如有bug及建议等，请邮件至：`jb2011@163.com`；</li>
 * 欢迎加入Java Swing爱好者讨论QQ群：`259448663`  <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9971fb1d1845edc87bdec92ad03f329c1d1f280b1cfe73b6d03c13b0f7f8aba1"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java Swing技术交流" title="Java Swing技术交流"></a>；
-* 如需有偿提供应用软件整体或局部美化、方案制作、编码实现等，请联系作者QQ：413980957；
+* 如需有偿提供应用软件整体或局部美化、方案制作、编码实现等，请联系作者QQ：`413980957`；
 * 你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。
 
 ## 关于作者
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
 
-> 计算机科学与技术本科毕业；<br>
-> 现正从事于移动互联网和智能穿戴应用领域；<br>
+> 计算机科学与技术本科毕业，现正从事于移动互联网和智能穿戴应用领域；<br>
 > 职业生涯：程序员、项目经理、技术总监；<br>
 > 编码技能：JavaME、JavaSE、JavaEE、Android、iOS等平台应用层开发；<br>
-> 知识体系：多年的软件开发、项目管理、团队管理以及创业公司操盘经历，在软件开发体系和团队建设、项目开发和管理、中大型企业应用的持续开发/实施/集成/运维和信息化建设等方面拥有较丰富的实践经验，技术领域涉及传统企业桌面应用、企业分布式互联网应用、新一代移动互联网应用等。
+> 实践经验：多年的软件开发、项目管理、团队管理以及创业公司操盘经历，在软件开发体系和团队建设、项目开发和管理、中大型企业应用的持续开发/实施/集成/运维和信息化建设等方面拥有较丰富的实践经验，技术领域涉及传统企业桌面应用、企业分布式互联网应用、新一代移动互联网应用等。
 
 ## 特性预览
 #### Part 1/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png)
