@@ -66,7 +66,7 @@ public static void main(String[] args)
 * 你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。
 
 ## 关于作者
-![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)<br>
 计算机科学与技术本科毕业，现正从事于移动互联网和智能穿戴应用领域；<br>
 > 职业生涯：程序员、项目经理、技术总监；<br>
 > 编码技能：JavaME、JavaSE、JavaEE、Android、iOS等平台应用层开发；<br>
