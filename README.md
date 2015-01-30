@@ -4,23 +4,16 @@ BeautyEye is a Java Swing cross-platform look and feel. Thanks to NinePatch tech
 ## Latest Release
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/release_notes/v3.5_release_note.png)
 
-## <font color="#ff0000">特别说明</font>
-各种开发问题及技巧请参见：[BeautyEye L&F简明开发者指南](http://code.google.com/p/beautyeye/wiki/Introduction)。
-
-另，<font color="#2A779D">关于“切换输入法导致白屏的问题”请见指南之“附录10”</font>。
-
 ## Compatibility
 BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行在[java1.6.0_12或更新版本](http://www.java.com/zh_CN/download/) <br><font style="font-size: 11px" color="#FF6600">([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920 ))</font>，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。
 
 另附：[BeautyEye外观(look and feel)兼容性测试结果](http://code.google.com/p/beautyeye/wiki/Compatibility_test_results).
 
 ## Feature
-<ul>
-<li>更好的兼容性，可运行于java 1.5、1.6、1.7，SUN的非公开API被移除？木有关系</li>
-<li>遵从当前主流审美，与时俱进</li>
-<li>跨平台</li>
-<li>使用NinePatch技术，用最少的代码实现最满意的外观，Synth、Nimbus都是浮云</li>
-</ul>
+* 更好的兼容性，可运行于java 1.5、1.6、1.7，SUN的非公开API被移除？木有关系</li>
+* 遵从主流审美，与时俱进</li>
+* 跨平台</li>
+* 源自Android基础技术，用最少的代码实现最满意的外观，Synth、Nimbus都是浮云</li>
 
 ## Demos
 <b>提示:</b>  请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本<br><font style="font-size: 11px" color="#FF6600">([为何java1.6.0_10或u11版不行？](https://code.google.com/p/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))</font>，这些版本才能支持窗口透明特性.
@@ -41,7 +34,7 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 <font color="#2A779D">核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录</font>。
 
 ### 第二步：在代码中使用BeautyEye
-<font color="#2A779D">加入以下代码，即可将你的Java程序界面更换成Beauty Eye的外观：</font>
+<sub><font color="#2A779D">加入以下代码，即可将你的Java程序界面更换成Beauty Eye的外观：</font></sub>
 ```Java
 public static void main(String[] args)
 {
