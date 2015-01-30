@@ -27,10 +27,10 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 正式版.zip包：[Click HERE](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## 开发指南
-### 第一步：引入*`beautyeye_lnf.jar`*包
+#### 第一步：引入*`beautyeye_lnf.jar`*包
 核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录。
 
-### 第二步：在代码中使用BeautyEye
+#### 第二步：在代码中使用BeautyEye
 加入以下代码，即可将你的Java程序界面更换成BeautyEye的外观：
 ```Java
 public static void main(String[] args)
@@ -62,10 +62,10 @@ public static void main(String[] args)
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在超越License约束内容的情况下用于商业用途等，请尊重知识产权。
 
 ## 特性预览
-### Part 1/2：清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png )<br>
+#### Part 1/2：清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png )<br>
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview.png)
 
-### Part 2/2：清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)<br>
+#### Part 2/2：清晰原图请["另存为..."](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)<br>
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2.png)
 
 ## 更多截屏
