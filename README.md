@@ -11,7 +11,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 ## Latest Release
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/release_notes/v3.5_release_note.png)
 
-> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2013年04月05日。
+> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2013年04月05日。 [点击查看历史版本更新说明](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
 
 ## Compatibility
 BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行在[java1.6.0_12或更新的版本](http://www.java.com/zh_CN/download/) <br>([为何java1.6.0_10或u11版不行？](https://github.com/JackJiang2011/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。
