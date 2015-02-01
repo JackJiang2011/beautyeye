@@ -68,7 +68,7 @@ public static void main(String[] args)
 
 ## About Author
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/js2.png)<br>
-计算机科学与技术本科，现从业于移动互联网和智能穿戴应用领域；<br>
+计算机科学与技术本科，现业从移动互联网和智能穿戴应用领域；<br>
 > <b>职业生涯：</b>程序员、项目经理、技术总监；<br>
 > <b>编码技能：</b>JavaME、JavaSE、JavaEE、Android、iOS等平台应用层开发；<br>
 > <b>实践经验：</b>多年的软件开发、项目管理、团队管理以及创业公司操盘经历，在软件开发体系和团队建设、项目开发和管理、中大型企业应用、移动互联网应用的持续开发/实施/集成/运维和信息化建设等方面拥有较丰富的实践经验，领域知识涉及传统企业桌面应用、企业分布式互联网应用、新一代移动互联网应用等。
