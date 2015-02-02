@@ -87,3 +87,6 @@ public static void main(String[] args)
 
 ## More Screenshots
 [Click here](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
+
+## Wiki
+[更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
