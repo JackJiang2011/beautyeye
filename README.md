@@ -33,7 +33,7 @@ BeautyEye 可运行于java 1.5、1.6以及1.7之上，但推荐至少应运行�
 <b>提示:</b> 请确保已安装JRE(最低java1.5版)，如需BeautyEye外观支持透明效果，则推荐java1.6.0\_12或更新版本([为何java1.6.0_10或u11版不行？](https://github.com/JackJiang2011/beautyeye/wiki/java_1_6_0_u10_BUG_6750920))，这些版本才能支持窗口透明特性.
 
 * [点击下载可执行jar包\(Swingsets2\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/excute_jar/SwingSets2\(BeautyEyeLNFDemo\).jar)
-* [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar) <font color="#FF6600">\[推荐:thumbsup:\]</font>
+* [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar) <font color="#FF6600"> \[推荐:thumbsup:\]</font>
 
 ## Download
 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
