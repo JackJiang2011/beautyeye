@@ -86,7 +86,18 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
 
 ## More Screenshots
-[Click here](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
+### 案例1：SwingSets2
+[更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
+
+### 案例2：SwingSets3
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
+
+### 案例3：DriodUIBuilder
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
+
+### 案例4：Draw9patch
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
 ## Wiki
 [更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
