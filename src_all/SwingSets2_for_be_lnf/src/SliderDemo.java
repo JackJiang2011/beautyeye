@@ -1,37 +1,13 @@
 /*
- * @(#)SliderDemo.java	1.9 05/11/17
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
- * Copyright (c) 2006 Sun Microsystems, Inc. All Rights Reserved.
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- * 
- * -Redistribution of source code must retain the above copyright notice, this
- *  list of conditions and the following disclaimer.
- * 
- * -Redistribution in binary form must reproduce the above copyright notice, 
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
- * 
- * Neither the name of Sun Microsystems, Inc. or the names of contributors may 
- * be used to endorse or promote products derived from this software without 
- * specific prior written permission.
- * 
- * This software is provided "AS IS," without a warranty of any kind. ALL 
- * EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING
- * ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
- * OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED. SUN MIDROSYSTEMS, INC. ("SUN")
- * AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
- * AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS
- * DERIVATIVES. IN NO EVENT WILL SUN OR ITS LICENSORS BE LIABLE FOR ANY LOST 
- * REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, 
- * INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY 
- * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, 
- * EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
- * 
- * You acknowledge that this software is not designed, licensed or intended
- * for use in the design, construction, operation or maintenance of any
- * nuclear facility.
+ * SliderDemo.java at 2015-2-1 20:25:39, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
 
 /*
@@ -152,7 +128,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.Y_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.plain")));
 	s = new JSlider(-10, 100, 20);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.setAlignmentX(Component.LEFT_ALIGNMENT);//add by jb2011
 	s.getAccessibleContext().setAccessibleName(getString("SliderDemo.plain"));
 	s.getAccessibleContext().setAccessibleDescription(getString("SliderDemo.a_plain_slider"));
@@ -170,7 +146,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.Y_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.majorticks")));
 	s = new JSlider(100, 1000, 400);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.setPaintTicks(true);
 	s.setMajorTickSpacing(100);
 	s.getAccessibleContext().setAccessibleName(getString("SliderDemo.majorticks"));
@@ -191,7 +167,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.Y_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.ticks")));
 	s = new JSlider(0, 11, 6);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.putClientProperty("JSlider.isFilled", Boolean.TRUE );
 
 	s.setPaintTicks(true);
@@ -210,7 +186,7 @@ public class SliderDemo extends DemoModule {
 	s.addChangeListener(listener);
 
 	//add by jb2011
-	createHorizonalHintBox(p,s,"´Î¼ÇºÅ¡¢¿Ì¶È");//getString("SliderDemo.ticks"));
+	createHorizonalHintBox(p,s,"æ¬¡è®°å·ã€åˆ»åº¦");//getString("SliderDemo.ticks"));
 	p.add(Box.createRigidArea(VGAP5));
 	p.add(s);
 	p.add(Box.createRigidArea(VGAP5));
@@ -223,7 +199,7 @@ public class SliderDemo extends DemoModule {
 //	p.setBorder(new TitledBorder(getString("SliderDemo.disabled")));
 	BoundedRangeModel brm = new DefaultBoundedRangeModel(80, 0, 0, 100);
 	s = new JSlider(brm);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.setPaintTicks(true);
 	s.setMajorTickSpacing(20);
 	s.setMinorTickSpacing(5);
@@ -246,7 +222,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.plain")));
 	s = new JSlider(JSlider.VERTICAL, -10, 100, 20);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.getAccessibleContext().setAccessibleName(getString("SliderDemo.plain"));
 	s.getAccessibleContext().setAccessibleDescription(getString("SliderDemo.a_plain_slider"));
 	s.addChangeListener(listener);
@@ -262,7 +238,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.majorticks")));
 	s = new JSlider(JSlider.VERTICAL, 100, 1000, 400);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.putClientProperty( "JSlider.isFilled", Boolean.TRUE );
 	s.setPaintTicks(true);
 	s.setMajorTickSpacing(100);
@@ -281,7 +257,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.minorticks")));
 	s = new JSlider(JSlider.VERTICAL, 0, 100, 60);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.setPaintTicks(true);
 	s.setMajorTickSpacing(20);
 	s.setMinorTickSpacing(5);
@@ -302,7 +278,7 @@ public class SliderDemo extends DemoModule {
 	p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
 //	p.setBorder(new TitledBorder(getString("SliderDemo.disabled")));
 	s = new JSlider(JSlider.VERTICAL, 0, 100, 80);
-	s.setOpaque(false);//add by jb2011£º²»Ìî³äÄ¬ÈÏ±³¾°É«£¨·ñÔò·Åµ½°×É«Ãæ°å°å»áºÜÄÑ¿´ £©
+	s.setOpaque(false);//add by jb2011ï¼šä¸å¡«å……é»˜è®¤èƒŒæ™¯è‰²ï¼ˆå¦åˆ™æ”¾åˆ°ç™½è‰²é¢æ¿æ¿ä¼šå¾ˆéš¾çœ‹ ï¼‰
 	s.setPaintTicks(true);
 	s.setMajorTickSpacing(20);
 	s.setMinorTickSpacing(5);

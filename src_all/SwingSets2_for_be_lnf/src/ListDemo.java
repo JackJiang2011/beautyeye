@@ -1,37 +1,13 @@
 /*
- * @(#)ListDemo.java	1.17 05/11/17
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
- * Copyright (c) 2006 Sun Microsystems, Inc. All Rights Reserved.
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- * 
- * -Redistribution of source code must retain the above copyright notice, this
- *  list of conditions and the following disclaimer.
- * 
- * -Redistribution in binary form must reproduce the above copyright notice, 
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
- * 
- * Neither the name of Sun Microsystems, Inc. or the names of contributors may 
- * be used to endorse or promote products derived from this software without 
- * specific prior written permission.
- * 
- * This software is provided "AS IS," without a warranty of any kind. ALL 
- * EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING
- * ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
- * OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED. SUN MIDROSYSTEMS, INC. ("SUN")
- * AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
- * AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS
- * DERIVATIVES. IN NO EVENT WILL SUN OR ITS LICENSORS BE LIABLE FOR ANY LOST 
- * REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, 
- * INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY 
- * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, 
- * EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
- * 
- * You acknowledge that this software is not designed, licensed or intended
- * for use in the design, construction, operation or maintenance of any
- * nuclear facility.
+ * ListDemo.java at 2015-2-1 20:25:40, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
 
 /*
@@ -117,7 +93,7 @@ public class ListDemo extends DemoModule {
      * @see DemoModule#getName()
      */
     @Override public String getName() {
-    	return "列表";
+    	return "鍒楄〃";
     };
 
     /**
@@ -148,7 +124,7 @@ public class ListDemo extends DemoModule {
 
 	// Create the list
 	list = new JList();
-	//* 由jb2011注释掉，以便测试Ui里的通用renderer
+	//* 鐢眏b2011娉ㄩ噴鎺夛紝浠ヤ究娴嬭瘯Ui閲岀殑閫氱敤renderer
 //	list.setCellRenderer(new CompanyLogoListCellRenderer());
 	listModel = new GeneratedListModel(this);
 	list.setModel(listModel);
@@ -244,13 +220,13 @@ public class ListDemo extends DemoModule {
 	JPanel prefixPanel = new JPanel();
 	prefixPanel.setLayout(new BoxLayout(prefixPanel, BoxLayout.Y_AXIS));
 	
-	//* modified by jb2011：改成一个灰色圆色背景的label
+	//* modified by jb2011锛氭敼鎴愪竴涓伆鑹插渾鑹茶儗鏅殑label
 	//prefixPanel.add(new JLabel(getString("ListDemo.prefixes")));
 	prefixPanel.add(N9ComponentFactory.createLabel_style4(" "+getString("ListDemo.prefixes")+" "));
 
 	JPanel suffixPanel = new JPanel();
 	suffixPanel.setLayout(new BoxLayout(suffixPanel, BoxLayout.Y_AXIS));
-	//* modified by jb2011：改成一个灰色圆色背景的label
+	//* modified by jb2011锛氭敼鎴愪竴涓伆鑹插渾鑹茶儗鏅殑label
 	//prefixPanel.add(new JLabel(getString("ListDemo.suffixes")));
 	suffixPanel.add(N9ComponentFactory.createLabel_style4(" "+getString("ListDemo.suffixes")+" "));
 
@@ -517,7 +493,7 @@ public class ListDemo extends DemoModule {
 	    images[6] = createImageIcon("list/magenta.gif",  getString("ListDemo.magenta"));
     }
 
-  //* 由jb2011注释掉，以便测试Ui里的通用renderer
+  //* 鐢眏b2011娉ㄩ噴鎺夛紝浠ヤ究娴嬭瘯Ui閲岀殑閫氱敤renderer
 //    class CompanyLogoListCellRenderer extends DefaultListCellRenderer {
 //       public Component getListCellRendererComponent(
 //            JList list,

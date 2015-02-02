@@ -1,37 +1,13 @@
 /*
- * @(#)LayoutControlPanel.java	1.12 05/11/17
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
- * Copyright (c) 2006 Sun Microsystems, Inc. All Rights Reserved.
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- * 
- * -Redistribution of source code must retain the above copyright notice, this
- *  list of conditions and the following disclaimer.
- * 
- * -Redistribution in binary form must reproduce the above copyright notice, 
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
- * 
- * Neither the name of Sun Microsystems, Inc. or the names of contributors may 
- * be used to endorse or promote products derived from this software without 
- * specific prior written permission.
- * 
- * This software is provided "AS IS," without a warranty of any kind. ALL 
- * EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING
- * ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
- * OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED. SUN MIDROSYSTEMS, INC. ("SUN")
- * AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
- * AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS
- * DERIVATIVES. IN NO EVENT WILL SUN OR ITS LICENSORS BE LIABLE FOR ANY LOST 
- * REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, 
- * INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY 
- * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, 
- * EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
- * 
- * You acknowledge that this software is not designed, licensed or intended
- * for use in the design, construction, operation or maintenance of any
- * nuclear facility.
+ * LayoutControlPanel.java at 2015-2-1 20:25:36, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
 
 /*
@@ -142,16 +118,16 @@ public class LayoutControlPanel extends JPanel implements SwingConstants {
             setAlignment(c,CENTER,CENTER);
         }
 
-        //* modified by jb2011£∫∏ƒ≥…“ª∏ˆª“…´‘≤…´±≥æ∞µƒlabel
+        //* modified by jb2011ÔºöÊîπÊàê‰∏Ä‰∏™ÁÅ∞Ëâ≤ÂúÜËâ≤ËÉåÊôØÁöÑlabel
 		//l = new JLabel(demo.getString("LayoutControlPanel.textposition_label"));
         l = N9ComponentFactory.createLabel_style4(demo.getString("LayoutControlPanel.textposition_label"));
         add(l);
         add(textPosition);
 
-        //* modified by jb2011£∫
+        //* modified by jb2011Ôºö
         add(Box.createRigidArea(new Dimension(1,33)));//demo.VGAP20));
 
-        //* modified by jb2011£∫∏ƒ≥…“ª∏ˆª“…´‘≤…´±≥æ∞µƒlabel
+        //* modified by jb2011ÔºöÊîπÊàê‰∏Ä‰∏™ÁÅ∞Ëâ≤ÂúÜËâ≤ËÉåÊôØÁöÑlabel
         //l = new JLabel(demo.getString("LayoutControlPanel.contentalignment_label"));
         l = N9ComponentFactory.createLabel_style4(demo.getString("LayoutControlPanel.contentalignment_label"));
         add(l);

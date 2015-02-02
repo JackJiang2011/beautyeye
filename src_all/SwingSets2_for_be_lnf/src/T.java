@@ -1,13 +1,22 @@
 /*
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ * 
+ * T.java at 2015-2-1 20:25:40, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
-import javax.swing.BorderFactory;
+import java.awt.BorderLayout;
+
 import javax.swing.JButton;
-import javax.swing.JComponent;
 import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JToolBar;
 
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
-import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.FrameBorderStyle;
 
 
 // TODO: Auto-generated Javadoc
@@ -41,7 +50,14 @@ public class T
 //		f.pack();
 		f.setBounds(100,100,300,300);
 		
-		f.getContentPane().add(new JButton("1111111111111111111111"));
+		
+		JToolBar tb = new JToolBar();
+		tb.add(new JTextField("111111111111111111"));
+		
+		f.getContentPane().setLayout(new BorderLayout());
+		f.getContentPane().add(tb, BorderLayout.NORTH);
+		f.getContentPane().add(new JButton("1111111111111111111111"), BorderLayout.CENTER);
+		
 		
 //		((JComponent)f.getContentPane())
 //			.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
@@ -51,6 +67,6 @@ public class T
 //		f.setUndecorated(false);
 		f.setVisible(true);
 		
-		f.setExtendedState(JFrame.MAXIMIZED_BOTH);
+//		f.setExtendedState(JFrame.MAXIMIZED_BOTH);
 	}
 }

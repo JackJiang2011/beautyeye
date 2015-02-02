@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="GBK" ?> 
-<jnlp codebase="http://beautyeye.googlecode.com/svn/trunk/beautyeye_lnf/demo/jnlp/" name="BeautyEye LNF Demo" href="launch.jnlp">
+<jnlp codebase="https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo/jnlp/" name="BeautyEye LNF Demo" href="launch.jnlp">
    <information>
 	<title>A demo for BeautyEye LNF</title>
 	<vendor>Jack Jiang(jb2011@163.com).</vendor>
-	<homepage href="http://beautyeye.googlecode.com"/>
+	<homepage href="https://github.com/JackJiang2011/beautyeye"/>
 	<offline-allowed/> 	
  	<shortcut>
       	<desktop/>

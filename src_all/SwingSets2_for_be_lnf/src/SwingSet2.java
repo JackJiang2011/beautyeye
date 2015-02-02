@@ -1,37 +1,13 @@
 /*
- * @(#)SwingSet2.java	1.54 06/05/31
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
- * Copyright (c) 2006 Sun Microsystems, Inc. All Rights Reserved.
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- * 
- * -Redistribution of source code must retain the above copyright notice, this
- *  list of conditions and the following disclaimer.
- * 
- * -Redistribution in binary form must reproduce the above copyright notice, 
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
- * 
- * Neither the name of Sun Microsystems, Inc. or the names of contributors may 
- * be used to endorse or promote products derived from this software without 
- * specific prior written permission.
- * 
- * This software is provided "AS IS," without a warranty of any kind. ALL 
- * EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING
- * ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
- * OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED. SUN MIDROSYSTEMS, INC. ("SUN")
- * AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
- * AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS
- * DERIVATIVES. IN NO EVENT WILL SUN OR ITS LICENSORS BE LIABLE FOR ANY LOST 
- * REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, 
- * INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY 
- * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, 
- * EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
- * 
- * You acknowledge that this software is not designed, licensed or intended
- * for use in the design, construction, operation or maintenance of any
- * nuclear facility.
+ * SwingSet2.java at 2015-2-1 20:25:37, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
 
 /*
@@ -107,7 +83,8 @@ import javax.swing.plaf.metal.OceanTheme;
 import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
 import org.jb2011.lnf.beautyeye.widget.N9ComponentFactory;
 
-// TODO: Auto-generated Javadoc
+import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
+
 /**
  * A demo that shows all of the Swing components.
  *
@@ -346,10 +323,14 @@ public class SwingSet2 extends JPanel {
 		BeautyEyeLNFHelper.debug = true;
 //		BeautyEyeLNFHelper.translucencyAtFrameInactive = false;
 		BeautyEyeLNFHelper.launchBeautyEyeLNF();
+//		UIManager.put("ToolBar.border",new BorderUIResource(
+//				new org.jb2011.lnf.beautyeye.ch8_toolbar.BEToolBarUI.ToolBarBorder(UIManager.getColor("ToolBar.shadow"),
+//						UIManager.getColor("ToolBar.highlight"), new Insets(6, 0, 0, 0))));
 		
 //		JFrame.setDefaultLookAndFeelDecorated(true);
 //		JDialog.setDefaultLookAndFeelDecorated(true);
 //		UIManager.setLookAndFeel(new MetalLookAndFeel());
+//		UIManager.setLookAndFeel(new WindowsLookAndFeel());
 		
 		SwingSet2 swingset = new SwingSet2(null, GraphicsEnvironment.
 				getLocalGraphicsEnvironment().
@@ -370,7 +351,7 @@ public class SwingSet2 extends JPanel {
 		JPanel top = new JPanel();
 		top.setLayout(new BorderLayout());
 		
-		//* ÓÉjb2011ĞŞ¸Ä
+		//* ç”±jb2011ä¿®æ”¹
 		this.setBorder(BorderFactory.createEmptyBorder(2,0,4,0));//2,2,4,2));
 		
 		add(top, BorderLayout.NORTH);
@@ -400,7 +381,7 @@ public class SwingSet2 extends JPanel {
 		statusField = new JLabel("");
 //		statusField.setEditable(false);
 		JPanel hinePanel = new JPanel(new BorderLayout());//add by jb2011
-		JLabel hintLabel = N9ComponentFactory.createLabel_style1("ÓÑÇéÌáÊ¾");
+		JLabel hintLabel = N9ComponentFactory.createLabel_style1("å‹æƒ…æç¤º");
 		hinePanel.add(hintLabel,BorderLayout.WEST);
 		statusField.setBorder(BorderFactory.createEmptyBorder(2, 4, 2, 4));
 		hinePanel.add(statusField,BorderLayout.CENTER);
@@ -423,7 +404,7 @@ public class SwingSet2 extends JPanel {
 
 		tabbedPane.addTab(
 //				getString("TabbedPane.src_label"),
-				"JavaÔ´´úÂë",
+				"Javaæºä»£ç ",
 				null,
 				scroller,
 				getString("TabbedPane.src_tooltip")
@@ -478,6 +459,12 @@ public class SwingSet2 extends JPanel {
 
 		// ***** create File menu 
 		JMenu fileMenu = (JMenu) menuBar.add(new JMenu(getString("FileMenu.file_label")));
+		
+		//TODO ä»¥ä¸‹ä»£ç ç”¨æ¥æµ‹è¯•é¡¹çº§Menuä¸Šè®¾ç½®å›¾æ ‡
+//		fileMenu.setIcon(
+//				org.jb2011.lnf.beautyeye.ch9_menu
+//				.__IconFactory__.getInstance().getRadioButtonMenuItemCheckIcon());
+		
 		fileMenu.setMnemonic(getMnemonic("FileMenu.file_mnemonic"));
 		fileMenu.getAccessibleContext().setAccessibleDescription(getString("FileMenu.accessible_description"));
 
@@ -886,6 +873,7 @@ public class SwingSet2 extends JPanel {
 			public void run() {
 				SwitchToDemoAction action = new SwitchToDemoAction(swingset, (DemoModule) obj);
 				JToggleButton tb = swingset.getToolBar().addToggleButton(action);
+//				swingset.getToolBar().add(new JSeparator(JSeparator.VERTICAL));
 				swingset.getToolBarGroup().add(tb);
 				if(swingset.getToolBarGroup().getSelection() == null) {
 					tb.setSelected(true);
@@ -897,7 +885,6 @@ public class SwingSet2 extends JPanel {
 				if(demos[demos.length-1].equals(obj.getClass().getName())) {
 					setStatus(getString("Status.popupMenuAccessible"));
 				} 
-
 			}
 		});
 		return demo;
@@ -914,10 +901,10 @@ public class SwingSet2 extends JPanel {
 
 		// Ensure panel's UI is current before making visible
 		JComponent currentDemoPanel = demo.getDemoPanel();
-		//** ÒÔÏÂ´úÂë±»×¢ÊÍµôÁË£¬Ëü½«»áµ¼ÖÂÕë¶ÔÄ³Ò»×é¼şÔÚÔËĞĞÊ±ÉèÖÃµÄUI½«ÔÚÏÂ
-		//** ´ÎÖØĞÂloadDemoÊ±±»ÖÃÎªµ±Ç°ÕıÔÚÊ¹ÓÃµÄL&FµÄÄ¬ÈÏ×é¼şUI:±ÈÈç£¬Ô­±¾ÔÚ³ÌĞò³õÊ¼»¯Ê±°ÑÒ»°´Å¥ÉèÖÃ³ÉÂÌÉ«µÄ×Ô¶¨Òå
-		//** UI£¬µ«ËüËùÓĞÔÚDemo±»ÀûÓÚĞÂloadÊ±Òòµ÷ÓÃ´Ë·½·¨¶øÊ¹¸Ã°´Å¥ÖØĞÂ»Ö¸´µ½µ±Ç°L&FµÄÄ¬ÈÏUI£¨ÔÙÒ²²»ÊÇÂÌÉ«ÁË
-		//** £¬µ±È»¸Ã¶Î´úÂë²»ÄÜËã×÷bug£¬Ö»ÊÇSwingSet2ÎªÁËÈ·±£ÑİÊ¾L&FÊ±ÄÜ¼´Ê±Ë¢ĞÂUI£¬µ«Ç¡ºÃ¸újb2011ĞèÒªµÄÄ¿±ê²»Í¬¶øÒÑ£©£¡
+		//** ä»¥ä¸‹ä»£ç è¢«æ³¨é‡Šæ‰äº†ï¼Œå®ƒå°†ä¼šå¯¼è‡´é’ˆå¯¹æŸä¸€ç»„ä»¶åœ¨è¿è¡Œæ—¶è®¾ç½®çš„UIå°†åœ¨ä¸‹
+		//** æ¬¡é‡æ–°loadDemoæ—¶è¢«ç½®ä¸ºå½“å‰æ­£åœ¨ä½¿ç”¨çš„L&Fçš„é»˜è®¤ç»„ä»¶UI:æ¯”å¦‚ï¼ŒåŸæœ¬åœ¨ç¨‹åºåˆå§‹åŒ–æ—¶æŠŠä¸€æŒ‰é’®è®¾ç½®æˆç»¿è‰²çš„è‡ªå®šä¹‰
+		//** UIï¼Œä½†å®ƒæ‰€æœ‰åœ¨Demoè¢«åˆ©äºæ–°loadæ—¶å› è°ƒç”¨æ­¤æ–¹æ³•è€Œä½¿è¯¥æŒ‰é’®é‡æ–°æ¢å¤åˆ°å½“å‰L&Fçš„é»˜è®¤UIï¼ˆå†ä¹Ÿä¸æ˜¯ç»¿è‰²äº†
+		//** ï¼Œå½“ç„¶è¯¥æ®µä»£ç ä¸èƒ½ç®—ä½œbugï¼Œåªæ˜¯SwingSet2ä¸ºäº†ç¡®ä¿æ¼”ç¤ºL&Fæ—¶èƒ½å³æ—¶åˆ·æ–°UIï¼Œä½†æ°å¥½è·Ÿjb2011éœ€è¦çš„ç›®æ ‡ä¸åŒè€Œå·²ï¼‰ï¼
 //		SwingUtilities.updateComponentTreeUI(currentDemoPanel);
 
 		demoPanel.removeAll();
@@ -937,9 +924,10 @@ public class SwingSet2 extends JPanel {
 		if(!isApplet() && getFrame() != null) {
 			// put swingset in a frame and show it
 			JFrame f = getFrame();
-			f.setTitle(getString("Frame.title")+" - BeautyEye L&F(QÈº:259448663)");
+			f.setTitle(getString("Frame.title")+" - BeautyEye L&F v3.6 (æ¬¢è¿åŠ å…¥Java Swing QQç¾¤:259448663)");
 			f.getContentPane().add(this, BorderLayout.CENTER);
-			f.pack();
+//			f.pack();
+			f.setSize(1024, 750);
 
 			Rectangle screenRect = f.getGraphicsConfiguration().getBounds();
 			Insets screenInsets = Toolkit.getDefaultToolkit().getScreenInsets(
@@ -1102,7 +1090,7 @@ public class SwingSet2 extends JPanel {
 			frame.addWindowListener(l);
 		}
 		
-		//ÓÉJack JiangÓÚ2012-09-22¼ÓÉÏ£¬·ÀÖ¹ÒòJToolBarµÄ´óĞ¡¶øÓ°ÏìJFrameµÄprefereSizeÊ¹µÃÃ»·¨ÔÙËõĞ¡
+		//ç”±Jack Jiangäº2012-09-22åŠ ä¸Šï¼Œé˜²æ­¢å› JToolBarçš„å¤§å°è€Œå½±å“JFrameçš„prefereSizeä½¿å¾—æ²¡æ³•å†ç¼©å°
 		frame.setMinimumSize(new Dimension(100,100));
 		return frame;
 	}
@@ -1321,8 +1309,8 @@ public class SwingSet2 extends JPanel {
 		 */
 		public ToggleButtonToolBar() {
 			super();
-			
 			this.setFloatable(true);
+//			this.putClientProperty("ToolBar.isPaintPlainBackground", Boolean.TRUE);
 		}
 
 		/**
@@ -1578,7 +1566,7 @@ public class SwingSet2 extends JPanel {
 		 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 		 */
 		public void actionPerformed(ActionEvent e) {
-			//* Jack Jiang ÓÚ2012-09-11ÈÕ×¢ÊÍµô
+			//* Jack Jiang äº2012-09-11æ—¥æ³¨é‡Šæ‰
 //			UIManager.put("AuditoryCues.playList",
 //					UIManager.get("AuditoryCues.allAuditoryCues"));
 //			swingset.updateLookAndFeel();
@@ -1608,7 +1596,7 @@ public class SwingSet2 extends JPanel {
 		 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 		 */
 		public void actionPerformed(ActionEvent e) {
-			//* Jack Jiang ÓÚ2012-09-11ÈÕ×¢ÊÍµô
+			//* Jack Jiang äº2012-09-11æ—¥æ³¨é‡Šæ‰
 //			UIManager.put("AuditoryCues.playList",
 //					UIManager.get("AuditoryCues.defaultCueList"));
 //			swingset.updateLookAndFeel();
@@ -1638,7 +1626,7 @@ public class SwingSet2 extends JPanel {
 		 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 		 */
 		public void actionPerformed(ActionEvent e) {
-			//* Jack Jiang ÓÚ2012-09-11ÈÕ×¢ÊÍµô
+			//* Jack Jiang äº2012-09-11æ—¥æ³¨é‡Šæ‰
 //			UIManager.put("AuditoryCues.playList",
 //					UIManager.get("AuditoryCues.noAuditoryCues"));
 //			swingset.updateLookAndFeel();
@@ -1944,7 +1932,7 @@ public class SwingSet2 extends JPanel {
 		 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 		 */
 		public void actionPerformed(ActionEvent e) {
-			//* Jack Jiang ÓÚ2012-09-11ÈÕ×¢ÊÍµô
+			//* Jack Jiang äº2012-09-11æ—¥æ³¨é‡Šæ‰
 //			if (plain) {
 //				UIManager.put("swing.boldMetal", Boolean.FALSE);
 //			}
@@ -1956,9 +1944,9 @@ public class SwingSet2 extends JPanel {
 		}
 	}
 	
-	//------------------------------------------------------------- ÓÉjb2011ÓÚ2012-06-20ÊµÏÖ
-	//ÓÃÓÚDemoPanelµÄ±ß¿òÊµÏÖ£¬ÊÓ¾õÄ¿±êÊÇ£º¼ò½à¡£
-	//Ô­EtchedBorder±ß¿òÌ«ÍÁ£¬µ«ÊÇÃ»±ß¿ò½«µ¼ÖÂÕûÌåĞ§¹ûÉÔÏÔµ¥µ÷£¬ËùÒÔ×ö´Ë±ß¿ò
+	//------------------------------------------------------------- ç”±jb2011äº2012-06-20å®ç°
+	//ç”¨äºDemoPanelçš„è¾¹æ¡†å®ç°ï¼Œè§†è§‰ç›®æ ‡æ˜¯ï¼šç®€æ´ã€‚
+	//åŸEtchedBorderè¾¹æ¡†å¤ªåœŸï¼Œä½†æ˜¯æ²¡è¾¹æ¡†å°†å¯¼è‡´æ•´ä½“æ•ˆæœç¨æ˜¾å•è°ƒï¼Œæ‰€ä»¥åšæ­¤è¾¹æ¡†
 	/**
 	 * The Class DemoPanelBorder.
 	 */
@@ -1981,24 +1969,24 @@ public class SwingSet2 extends JPanel {
 //			g.drawLine(x,y, x,height-1); // draw left
 //			g.drawLine(width-1,y, width-1,height-1); // draw right
 			
-			//** »æÖÆborderµÄµ×Ïß
-			//ĞéÏßÑùÊ½
+			//** ç»˜åˆ¶borderçš„åº•çº¿
+			//è™šçº¿æ ·å¼
 			Stroke oldStroke = ((Graphics2D)g).getStroke();
 			Stroke sroke = new BasicStroke(1, BasicStroke.CAP_BUTT,
-					BasicStroke.JOIN_BEVEL, 0, new float[]{1, 2}, 0);//ÊµÏß£¬¿Õ°×
+					BasicStroke.JOIN_BEVEL, 0, new float[]{1, 2}, 0);//å®çº¿ï¼Œç©ºç™½
 			((Graphics2D)g).setStroke(sroke);
-			//µ×±ßÉÏ£¨Ç³»ÒÉ«£©
+			//åº•è¾¹ä¸Šï¼ˆæµ…ç°è‰²ï¼‰
 			g.setColor(new Color(200,200,200));
 			g.drawLine(x,height-2, width-1,height-2); // draw bottom1
-			//µ×±ßÏÂ£¨°×É«£©£º»æÖÆÒ»Ìõ°×É«ĞéÏßµÄÄ¿µÄÊÇÓëÉÏÃæµÄ»ÒÏß²úÉú½ÏÇ¿¶Ô±È¶È´Ó¶øĞÎ³ÉÁ¢ÌåĞ§¹û
-			//£¬±¾L&FÊµÏÖÖĞÒòÓëPanelµÄµ×É«¶Ô±È¶È²»¹»Ç¿ÁÒ¶øÁ¢Ìå¸Ğ²»Ã÷ÏÔ£¨ÑÕÉ«Ô½ÉîµÄµ×É«×îÖÕĞ§¹ûÔ½Ã÷ÏÔ£©
+			//åº•è¾¹ä¸‹ï¼ˆç™½è‰²ï¼‰ï¼šç»˜åˆ¶ä¸€æ¡ç™½è‰²è™šçº¿çš„ç›®çš„æ˜¯ä¸ä¸Šé¢çš„ç°çº¿äº§ç”Ÿè¾ƒå¼ºå¯¹æ¯”åº¦ä»è€Œå½¢æˆç«‹ä½“æ•ˆæœ
+			//ï¼Œæœ¬L&Få®ç°ä¸­å› ä¸Panelçš„åº•è‰²å¯¹æ¯”åº¦ä¸å¤Ÿå¼ºçƒˆè€Œç«‹ä½“æ„Ÿä¸æ˜æ˜¾ï¼ˆé¢œè‰²è¶Šæ·±çš„åº•è‰²æœ€ç»ˆæ•ˆæœè¶Šæ˜æ˜¾ï¼‰
 			g.setColor(Color.white);
 			g.drawLine(x,height-1, width-1,height-1);//draw bottom2
 			
 			((Graphics2D)g).setStroke(oldStroke);
 		}
 
-		//borderÖ»ÓĞµ×±ß£¬ÇÒ¸ß¶ÈÎª2ÏñËØ
+		//borderåªæœ‰åº•è¾¹ï¼Œä¸”é«˜åº¦ä¸º2åƒç´ 
 		/* (non-Javadoc)
 		 * @see javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component)
 		 */

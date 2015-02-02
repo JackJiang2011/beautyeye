@@ -1,37 +1,13 @@
 /*
- * @(#)ButtonDemo.java	1.15 05/11/17
+ * Copyright (C) 2015 Jack Jiang(cngeeker.com) The BeautyEye Project. 
+ * All rights reserved.
+ * Project URL:https://github.com/JackJiang2011/beautyeye
+ * Version 3.6
  * 
- * Copyright (c) 2006 Sun Microsystems, Inc. All Rights Reserved.
+ * Jack Jiang PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  * 
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- * 
- * -Redistribution of source code must retain the above copyright notice, this
- *  list of conditions and the following disclaimer.
- * 
- * -Redistribution in binary form must reproduce the above copyright notice, 
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
- * 
- * Neither the name of Sun Microsystems, Inc. or the names of contributors may 
- * be used to endorse or promote products derived from this software without 
- * specific prior written permission.
- * 
- * This software is provided "AS IS," without a warranty of any kind. ALL 
- * EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING
- * ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
- * OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED. SUN MIDROSYSTEMS, INC. ("SUN")
- * AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
- * AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS
- * DERIVATIVES. IN NO EVENT WILL SUN OR ITS LICENSORS BE LIABLE FOR ANY LOST 
- * REVENUE, PROFIT OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL, 
- * INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY 
- * OF LIABILITY, ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, 
- * EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
- * 
- * You acknowledge that this software is not designed, licensed or intended
- * for use in the design, construction, operation or maintenance of any
- * nuclear facility.
+ * ButtonDemo.java at 2015-2-1 20:25:39, original version by Jack Jiang.
+ * You can contact author with jb2011@163.com.
  */
 
 /*
@@ -154,7 +130,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
      * @see DemoModule#getName()
      */
     @Override public String getName() {
-    	return "°´Å¥";
+    	return "æŒ‰é’®";
     };
 
     /**
@@ -214,7 +190,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
 	buttons.add(p2.add(new JButton(getString("ButtonDemo.button2"))));
 	p2.add(Box.createRigidArea(HGAP10));
 
-	JButton btn = new JButton("ÕâÊÇÒ»¸öÓÃÀ´²âÊÔµÄ³¤ÎÄ±¾°´Å¥");
+	JButton btn = new JButton("è¿™æ˜¯ä¸€ä¸ªç”¨æ¥æµ‹è¯•çš„é•¿æ–‡æœ¬æŒ‰é’®");
 	btn.setUI(new BEButtonUI().setNormalColor(BEButtonUI.NormalColor.green));
 	btn.setForeground(Color.white);
 	buttons.add(p2.add(btn));
@@ -516,7 +492,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
 	createListeners();
 
         // Display Options
-		//* modified by jb2011£º¸Ä³ÉÒ»¸ö»ÒÉ«Ô²É«±³¾°µÄlabel
+		//* modified by jb2011ï¼šæ”¹æˆä¸€ä¸ªç°è‰²åœ†è‰²èƒŒæ™¯çš„label
 		//JLabel l = new JLabel(getString("ButtonDemo.controlpanel_label"));
         JLabel l = N9ComponentFactory.createLabel_style4(getString("ButtonDemo.controlpanel_label"));
         leftColumn.add(l);
@@ -557,7 +533,7 @@ public class ButtonDemo extends DemoModule implements ChangeListener {
 
         leftColumn.add(Box.createRigidArea(VGAP20));
         
-        //* modified by jb2011£º¸Ä³ÉÒ»¸ö»ÒÉ«Ô²É«±³¾°µÄlabel
+        //* modified by jb2011ï¼šæ”¹æˆä¸€ä¸ªç°è‰²åœ†è‰²èƒŒæ™¯çš„label
         // l = new JLabel(getString("ButtonDemo.padamount_label"));
         l = N9ComponentFactory.createLabel_style4(getString("ButtonDemo.padamount_label"));
         leftColumn.add(l);
