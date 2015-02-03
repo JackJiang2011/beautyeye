@@ -105,4 +105,4 @@ public static void main(String[] args)
 :notebook_with_decorative_cover: [更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
 
 ## 作者的其它工程
-* **DroidUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
+* **DroidUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[:octocat: 点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
