@@ -9,7 +9,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
 ## Latest Release
-### v3.6 更新说明
+#### v3.6 更新说明
 发布于：`2015-02-02 17：31`<br>
 1、优化了窗体默认icon的样式；<br>
 2、优化了JList的选中样式；<br>
@@ -86,18 +86,18 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
 
 ## More Screenshots
-### 案例 :one:：SwingSets2
+### :triangular_flag_on_post: 案例 :one:：SwingSets2
 [更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
 
-### 案例 :two:：SwingSets3
+### :triangular_flag_on_post: 案例 :two:：SwingSets3
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
 
-### 案例 :three:：DriodUIBuilder
+### :triangular_flag_on_post: 案例 :three:：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
 :point_right: DroidUIBuilder工程已开源，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
 
-### 案例 :four:：Draw9patch
+### :triangular_flag_on_post: 案例 :four:：Draw9patch
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
