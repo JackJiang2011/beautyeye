@@ -95,6 +95,8 @@ public static void main(String[] args)
 ### 案例3：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
+DriodUIBuilder工程已开源，工程地址：[点击进入](https://github.com/JackJiang2011/DriodUIBuilder)
+
 ### 案例4：Draw9patch
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
