@@ -66,9 +66,9 @@ public static void main(String[] args)
 你可永久免费且自由地使用BeautyEye外观(look and feel)，如：用于研究、学习、甚至商业用途，但禁止在超越License约束内容的情况下用于商业用途等，请尊重知识产权。
 
 ## Contact
-* 如有bug及建议等，请邮件至：`jb2011@163.com`；</li>
+* 如有bug及建议等，请邮件至：:love_letter:  `jb2011@163.com`；</li>
 * 欢迎加入Java Swing爱好者讨论QQ群：`259448663`  <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9971fb1d1845edc87bdec92ad03f329c1d1f280b1cfe73b6d03c13b0f7f8aba1"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Java Swing技术交流" title="Java Swing技术交流"></a>；
-* 如需有偿提供应用软件整体或局部美化、方案制作、编码实现等，请联系作者QQ：`413980957`；
+* 如需有偿提供应用软件整体或局部美化、方案制作、编码实现等，请联系作者QQ：:penguin: `413980957`；
 * 你也可前往 [Jack Jiang的微博](http://t.qq.com/jackjiang_is_here/) 进行交流。
 
 ## About Author
