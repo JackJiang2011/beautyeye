@@ -10,11 +10,11 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 
 ## Latest Release
 #### :page_facing_up: v3.6 更新说明
-发布于：`2015-02-02 17：31`<br>
-* 1、优化了窗体默认icon的样式；<br>
-* 2、优化了JList的选中样式；<br>
-* 3、JDK 7最新版（java 1.7_u75兼容性测试通过）；<br>
-* 4、JDK 8最新版（java 1.8_u31兼容性测试通过）。<br>
+ 发布于：`2015-02-02 17：31`<br>
+ 1、优化了窗体默认icon的样式；<br>
+ 2、优化了JList的选中样式；<br>
+ 3、JDK 7最新版（java 1.7_u75兼容性测试通过）；<br>
+ 4、JDK 8最新版（java 1.8_u31兼容性测试通过）。<br>
 
 > BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2015年02月02日。 [点击查看历史版本更新说明](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
 
