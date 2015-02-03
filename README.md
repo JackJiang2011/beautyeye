@@ -92,6 +92,8 @@ public static void main(String[] args)
 #### :triangular_flag_on_post: 案例 :two:：SwingSets3
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
 
+:paperclip: [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar)
+
 #### :triangular_flag_on_post: 案例 :three:：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
