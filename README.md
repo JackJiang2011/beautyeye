@@ -95,7 +95,7 @@ public static void main(String[] args)
 ### 案例3：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
-**DriodUIBuilder工程已开源**，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
+**DroidUIBuilder工程已开源**，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
 
 ### 案例4：Draw9patch
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
@@ -105,4 +105,4 @@ public static void main(String[] args)
 [更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
 
 ## 作者的其它工程
-* **DriodUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
+* **DroidUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
