@@ -9,7 +9,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
 ## Latest Release
-#### :clipboard: v3.6 更新说明
+#### :page_facing_up: v3.6 更新说明
 发布于：`2015-02-02 17：31`<br>
 1、优化了窗体默认icon的样式；<br>
 2、优化了JList的选中样式；<br>
@@ -102,7 +102,7 @@ public static void main(String[] args)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
 ## Wiki
-[更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
+:notebook_with_decorative_cover: [更多内容点击进入](https://github.com/JackJiang2011/beautyeye/wiki)
 
 ## 作者的其它工程
 * **DroidUIBuilder**：一款开源Android GUI设计工具（已于2012年底停止开发），[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)。<br>
