@@ -87,7 +87,7 @@ public static void main(String[] args)
 
 ## More Screenshots
 #### :triangular_flag_on_post: 案例 :one:：SwingSets2
-[更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
+:point_right: [更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
 
 #### :triangular_flag_on_post: 案例 :two:：SwingSets3
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
