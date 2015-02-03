@@ -9,7 +9,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
 ## Latest Release
-#### v3.6 更新说明
+#### :page_facing_up: v3.6 更新说明
 发布于：`2015-02-02 17：31`<br>
 1、优化了窗体默认icon的样式；<br>
 2、优化了JList的选中样式；<br>
@@ -39,10 +39,10 @@ BeautyEye 可运行于java 1.5、1.6、1.7以及1.8之上，但推荐至少应�
 :paperclip: 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## Development Guide
-#### 第一步：引入*`beautyeye_lnf.jar`*包
+#### :triangular_flag_on_post: 第一步：引入*`beautyeye_lnf.jar`*包
 核心分发jar包 *`beautyeye_lnf.jar`* 位于*“`/dist/`”*目录。
 
-#### 第二步：在代码中使用BeautyEye
+#### :triangular_flag_on_post: 第二步：在代码中使用BeautyEye
 加入以下代码，即可将你的Java程序界面更换成BeautyEye的外观：
 ```Java
 public static void main(String[] args)
