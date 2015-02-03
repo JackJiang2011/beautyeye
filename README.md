@@ -89,15 +89,15 @@ public static void main(String[] args)
 ### :one:案例1：SwingSets2
 [更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
 
-### :two:案例2：SwingSets3
+#### :two: 案例2：SwingSets3
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
 
-### :three:案例3：DriodUIBuilder
+#### :three: 案例3：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
-:point_right: **DroidUIBuilder工程已开源**，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
+:point_right: DroidUIBuilder工程已开源，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
 
-### :four:案例4：Draw9patch
+#### :four: 案例4：Draw9patch
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
