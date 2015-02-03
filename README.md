@@ -9,7 +9,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
 ## Latest Release
-#### :page_facing_up: v3.6 更新说明
+#### :clipboard: v3.6 更新说明
 发布于：`2015-02-02 17：31`<br>
 1、优化了窗体默认icon的样式；<br>
 2、优化了JList的选中样式；<br>
