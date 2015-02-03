@@ -79,25 +79,25 @@ public static void main(String[] args)
 > <b>实践经验：</b>多年的软件开发、项目管理、团队管理以及创业公司操盘经历，在软件开发体系和团队建设、项目开发和管理、中大型企业应用、移动互联网应用的持续开发/实施/集成/运维和信息化建设等方面拥有较丰富的实践经验，领域知识涉及传统企业桌面应用、企业分布式互联网应用、新一代移动互联网和智能穿戴应用等。
 
 ## Preview
-#### Part 1/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview_36.png)
+#### :triangular_flag_on_post: Part 1/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview_36.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview_36.png)
 
-#### Part 2/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
+#### :triangular_flag_on_post: Part 2/2：[点击查看清晰原图](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
 
 ## More Screenshots
-### :triangular_flag_on_post: 案例 :one:：SwingSets2
+#### :triangular_flag_on_post: 案例 :one:：SwingSets2
 [更多截图点击进入](https://github.com/JackJiang2011/beautyeye/wiki/Screenshots-all-in-one)
 
-### :triangular_flag_on_post: 案例 :two:：SwingSets3
+#### :triangular_flag_on_post: 案例 :two:：SwingSets3
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/swingsets3/swingsets3_beautyeye.png)
 
-### :triangular_flag_on_post: 案例 :three:：DriodUIBuilder
+#### :triangular_flag_on_post: 案例 :three:：DriodUIBuilder
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/drioduiduilder/drioduiduilder_beautyeye.png)
 
 :point_right: DroidUIBuilder工程已开源，工程地址：[点击进入](https://github.com/JackJiang2011/DroidUIBuilder)
 
-### :triangular_flag_on_post: 案例 :four:：Draw9patch
+#### :triangular_flag_on_post: 案例 :four:：Draw9patch
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch1_beautyeye.png)
 ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/draw9patch/draw9patch2_beautyeye.png)
 
