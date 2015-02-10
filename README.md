@@ -8,12 +8,12 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 > 迄今为止，BeautyEye没有任何平面设计或相关UI设计人员的参与，仍是纯粹的程序员作品。<br>
 > BeautyEye工程参考和借鉴了来自互联网的大量素材，在此表示感谢。
 
-## 项目托管同步更新站点列表：
+## 代码托管同步更新站点
 
 **GitHub.com**
 
 * 代码托管：  https://github.com/JackJiang2011/beautyeye 
-* 项目文档：  https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-L&F%E7%AE%80%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97
+* 项目文档：  [简明开发者指南](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-L&F%E7%AE%80%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97)
 
 **OsChina.net**
 
