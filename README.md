@@ -18,6 +18,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 **OsChina.net**
 
 * 代码托管：  http://git.oschina.net/jackjiang/beautyeye 
+* 项目文档：  [简明开发者指南](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-L&F%E7%AE%80%E6%98%8E%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97)
 
 ## Latest Release
 #### :page_facing_up: v3.6 更新说明
