@@ -16,7 +16,7 @@ BeautyEye is open source and free.
 > BeautyEye first code since 2012-05, v3.0 released date is 2012-09-11, latest version released date is 2015-02-02. [More release notes](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
 
 ## Compatibility
-BeautyEye can be run at java 1.5,1.6,1.7 and 1.8 or later,.
+BeautyEye can be run at java 1.5,1.6,1.7 and 1.8 or later.
 
 [See compatibility test](https://github.com/JackJiang2011/beautyeye/wiki/Compatibility_test_results).
 
