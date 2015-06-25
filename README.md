@@ -1,5 +1,5 @@
 ## ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/beautyeye_logo_h.png)
-:us: [See english language](https://github.com/JackJiang2011/beautyeye/blob/master/README.md)
+:us: [Click here to "README.md" with English](https://github.com/JackJiang2011/beautyeye/blob/master/README_en.md)
 
 :bulb: BeautyEye工程自2015-01-30日起因众所周知的原因已从 [Google Code](https://code.google.com/p/beautyeye/) 迁移至此。
 
