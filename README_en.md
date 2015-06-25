@@ -13,7 +13,7 @@ BeautyEye is open source and free.
  1. Frame icons style optimized; <br>
  2. JList selection style optimized; <br>
  3. JDK 7 compatibility test (java 1.7_u75); <br>
- 4、JDK 8 compatibility test (java 1.8_u31). <br>
+ 4. JDK 8 compatibility test (java 1.8_u31). <br>
 
 > BeautyEye first code since 2012-05, v3.0 released date is 2012-09-11, latest version released date is 2015-02-02. [More release notes](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
 
