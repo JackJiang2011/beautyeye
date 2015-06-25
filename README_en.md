@@ -1,4 +1,4 @@
-## ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/beautyeye_logo_h.png)
+## ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/beautyeye_logo_h.png) [点击进入简体中文版 :cn:]https://github.com/JackJiang2011/beautyeye/blob/master/README.md)
 :bulb: BeautyEye has migrated from [Google Code](https://code.google.com/p/beautyeye/) since 2015-01-30.
 
 BeautyEye is a cross platform Java Swing look and feel;<br>
