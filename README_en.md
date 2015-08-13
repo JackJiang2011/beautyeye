@@ -34,7 +34,7 @@ BeautyEye can be run at java 1.5,1.6,1.7 and 1.8 or later.
 * :paperclip: [Download demo jar\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar) <font color="#FF6600"> \[Recommend:thumbsup:\]</font>
 
 ## Download
-:paperclip: .zip package：[Download now!](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip) (included demos, api docs , dist jar and so on).
+:paperclip: .zip package：[Download now!](https://github.com/JackJiang2011/beautyeye/archive/v3.6.zip) (included demos, api docs , dist jar and so on).
 
 ## Development Guide
 #### :triangular_flag_on_post: First step: Import *`beautyeye_lnf.jar`*
