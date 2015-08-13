@@ -50,7 +50,7 @@ BeautyEye 可运行于java 1.5、1.6、1.7以及1.8之上，但推荐至少应�
 * :paperclip: [点击下载可执行jar包\(Swingsets3\)](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/demo2/SwingSets3(BeautyEyeLNFDemo).jar) <font color="#FF6600"> \[推荐:thumbsup:\]</font>
 
 ## Download
-:paperclip: 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/3.5.zip)（内含demo、api文档、核心分发jar包等）.
+:paperclip: 正式版.zip包：[点击下载](https://github.com/JackJiang2011/beautyeye/archive/v3.6.zip)（内含demo、api文档、核心分发jar包等）.
 
 ## Development Guide
 #### :triangular_flag_on_post: 第一步：引入*`beautyeye_lnf.jar`*包
