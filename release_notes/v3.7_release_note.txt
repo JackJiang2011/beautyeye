@@ -1,0 +1,2 @@
+1、解决了JPopupMenu中显示的文本组件无法编辑的问题；
+2、解决了JFormattedTextField没有边框等UI效果问题。

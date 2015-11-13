@@ -23,14 +23,12 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 * 项目文档：  [简明开发者指南](http://cngeeker.com/forum.php?mod=viewthread&tid=26&extra=page%3D1)
 
 ## Latest Release
-#### :page_facing_up: v3.6 更新说明
- 发布于：`2015-02-02 17：31`<br>
- 1、优化了窗体默认icon的样式；<br>
- 2、优化了JList的选中样式；<br>
- 3、JDK 7最新版（java 1.7_u75兼容性测试通过）；<br>
- 4、JDK 8最新版（java 1.8_u31兼容性测试通过）。<br>
+#### :page_facing_up: v3.7 更新说明
+ 发布于：`2015-11-13 17：22`<br>
+ 1、解决了JPopupMenu中显示的文本组件无法编辑的问题；<br>
+ 2、解决了JFormattedTextField没有边框等UI效果问题。<br>
 
-> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2015年02月02日。 [点击查看历史版本更新说明](http://cngeeker.com/forum.php?mod=viewthread&tid=25&extra=page%3D1)
+> BeautyEye 起于2012年05月份，发布于2012年09月11日，最近一次版本发布是：2015年11月13日。 [点击查看历史版本更新说明](http://cngeeker.com/forum.php?mod=viewthread&tid=25&extra=page%3D1)
 
 ## Compatibility
 BeautyEye 可运行于java 1.5、1.6、1.7以及1.8之上，但推荐至少应运行在[java1.6.0_12或更新的版本](http://www.java.com/zh_CN/download/) <br>([为何java1.6.0_10或u11版不行？](http://cngeeker.com/forum.php?mod=viewthread&tid=23&extra=page%3D1))，因为这些版本将能带来窗口透明特性，更重要的是Swing的性能提升。

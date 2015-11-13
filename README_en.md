@@ -8,14 +8,12 @@ Benefit from basic GUI technology of Android, BeautyEye is so different from oth
 BeautyEye is open source and free.
 
 ## Latest Release
-#### :page_facing_up: v3.6 release note
- Release time: `2015-02-02 17：31`<br>
- 1. Frame icons style optimized; <br>
- 2. JList selection style optimized; <br>
- 3. JDK 7 compatibility test (java 1.7_u75); <br>
- 4. JDK 8 compatibility test (java 1.8_u31). <br>
+#### :page_facing_up: v3.7 release note
+ Release time: `2015-11-13 17：23`<br>
+ 1. Resolved text components can not edit on JPopupMenu; <br>
+ 2. Resolved issue that JFormattedTextField has not ui. <br>
 
-> BeautyEye first code since 2012-05, v3.0 released date is 2012-09-11, latest version released date is 2015-02-02. [More release notes](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
+> BeautyEye first code since 2012-05, v3.0 released date is 2012-09-11, latest version released date is 2015-11-13. [More release notes](https://github.com/JackJiang2011/beautyeye/wiki/BeautyEye-release-notes)
 
 ## Compatibility
 BeautyEye can be run at java 1.5,1.6,1.7 and 1.8 or later.
