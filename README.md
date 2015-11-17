@@ -1,7 +1,7 @@
 ## ![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/screenshots/beautyeye_logo_h.png)
 :us: [>> Click here to "README.md" with English!](https://github.com/JackJiang2011/beautyeye/blob/master/README_en.md)
 
-:bulb: BeautyEye工程自2015-01-30日起因众所周知的原因已从 [Google Code](https://code.google.com/p/beautyeye/) 迁移至此。
+:bulb: BeautyEye工程自2015-01-30日起因众所周知的原因已从 [Google Code](https://code.google.com/p/beautyeye/) 迁移至此（[Google Code 留念](http://openmob.net/forum.php?mod=viewthread&tid=22&extra=page%3D1)）。
 
 BeautyEye是一款Java Swing跨平台外观（look and feel）实现；<br>
 得益于Android的GUI基础技术，BeautyEye的实现完全不同于其它外观；<br>
