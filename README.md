@@ -12,7 +12,7 @@ BeautyEye是免费的，您可以研究、学习甚至商业用途。
 
 ## 源码在线阅读（免下载）
 
-无需开启IDE，方便随时随地查看和学习之用，地址是：[http://www.52im.net/thread-112-1-1.html](http://www.52im.net/thread-112-1-1.html)
+地址是：[http://www.52im.net/thread-112-1-1.html](http://www.52im.net/thread-112-1-1.html)，无需开启IDE，方便随时随地查看和学习之用。
 
 ## 代码托管同步更新
 
