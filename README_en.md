@@ -7,6 +7,10 @@ BeautyEye is a cross platform Java Swing look and feel;<br>
 Benefit from basic GUI technology of Android, BeautyEye is so different from other look and feel.<br>
 BeautyEye is open source and free.
 
+## Source code online
+
+Click here: [http://www.52im.net/thread-112-1-1.html](http://www.52im.net/thread-112-1-1.html)。
+
 ## Latest Release
 #### :page_facing_up: v3.7 release note
  Release time: `2015-11-13 17：23`<br>
