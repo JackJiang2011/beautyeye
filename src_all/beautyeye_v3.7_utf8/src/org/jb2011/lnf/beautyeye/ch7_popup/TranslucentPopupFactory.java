@@ -414,7 +414,7 @@ public class TranslucentPopupFactory extends PopupFactory
 			{
 				super(parent);
 				// FIXME: 一个外国朋友用了后，在此项被设置成false的情况下，Popup里的JTextField不能编辑了！
-				setFocusableWindowState(false);
+				setFocusableWindowState(true);
 				setName("###overrideRedirect###");
 				// Popups are typically transient and most likely won't benefit
 				// from true double buffering. Turn it off here.
