@@ -311,6 +311,9 @@ public class BEComboBoxUI extends BasicComboBoxUI
     		 * Implementation of ComboPopup.show().
     		 */
     		public void show() {
+		    	//issue:此处重写show方法，不再触发PopupMenuWillBecomeVisible方法
+    			//fix:主动触发事件firePopupMenuWillBecomeVisible,修复bug
+    			comboBox.firePopupMenuWillBecomeVisible();
     			setListSelection(comboBox.getSelectedIndex());
     			Point location = getPopupLocation();
     			show( comboBox
