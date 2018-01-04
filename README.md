@@ -96,10 +96,10 @@ public static void main(String[] args)
 
 ## Preview
 #### :triangular_flag_on_post: Part 1/2：[点击查看清晰原图](http://www.52im.net/data/attachment/forum/201508/13/230115jnmlpzv10122llr4.png)
-![](http://cngeeker.com/data/attachment/forum/201508/13/230115jnmlpzv10122llr4.png)
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview_36.png)
 
 #### :triangular_flag_on_post: Part 2/2：[点击查看清晰原图](http://www.52im.net/data/attachment/forum/201508/13/230117twsq64zqnxzf6nw1.png)
-![](http://cngeeker.com/data/attachment/forum/201508/13/230117twsq64zqnxzf6nw1.png)
+![](https://raw.githubusercontent.com/JackJiang2011/beautyeye/master/preview/be_lnf_preview2_36.png)
 
 ## More Screenshots
 #### :triangular_flag_on_post: 案例 :one:：SwingSets2
